@@ -1,0 +1,21 @@
+.ProductPage a.thumbnail {
+  position: relative;
+}
+.ProductPage a.thumbnail .fullcolor-thumbnail {
+  display: block;
+  display: none !important;
+}
+.ProductPage a.thumbnail .duotone-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ProductPage a.thumbnail:hover .duotone-thumbnail {
+  display: none !important;
+}
+.ProductPage a.thumbnail:hover .fullcolor-thumbnail {
+  display: inline-block !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
