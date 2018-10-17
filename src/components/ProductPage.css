@@ -2,20 +2,20 @@
   position: relative;
 }
 .ProductPage a.thumbnail .fullcolor-thumbnail {
-  display: block;
-  display: none !important;
-}
-.ProductPage a.thumbnail .duotone-thumbnail {
   position: absolute;
   top: 0;
   left: 0;
 }
-.ProductPage a.thumbnail:hover .duotone-thumbnail {
+.ProductPage a.thumbnail .duotone-thumbnail {
+  display: block;
   display: none !important;
 }
-.ProductPage a.thumbnail:hover .fullcolor-thumbnail {
+.ProductPage a.thumbnail:hover .duotone-thumbnail {
   display: inline-block !important;
   position: absolute;
   top: 0;
   left: 0;
+}
+.ProductPage a.thumbnail:hover .fullcolor-thumbnail {
+  display: none !important;
 }

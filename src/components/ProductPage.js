@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Img from 'gatsby-image'
+import Img from 'gatsby-image';
 import Lightbox from 'react-images';
 
 import "./ProductPage.css";
